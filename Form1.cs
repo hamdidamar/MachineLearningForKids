@@ -30,5 +30,11 @@ namespace MachineLearningForKids
             frmRockPaperScissors rockPaperScissors = new frmRockPaperScissors();
             rockPaperScissors.Show();
         }
+
+        private void btnCarOrCup_Click(object sender, EventArgs e)
+        {
+            frmCarOrCup carOrCup = new frmCarOrCup();
+            carOrCup.Show();
+        }
     }
 }

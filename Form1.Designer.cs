@@ -30,6 +30,7 @@
         {
             this.btnFaceRecognition = new System.Windows.Forms.Button();
             this.btnRockPaperScissors = new System.Windows.Forms.Button();
+            this.btnCarOrCup = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnFaceRecognition
@@ -52,11 +53,22 @@
             this.btnRockPaperScissors.UseVisualStyleBackColor = true;
             this.btnRockPaperScissors.Click += new System.EventHandler(this.btnRockPaperScissors_Click);
             // 
+            // btnCarOrCup
+            // 
+            this.btnCarOrCup.Location = new System.Drawing.Point(507, 131);
+            this.btnCarOrCup.Name = "btnCarOrCup";
+            this.btnCarOrCup.Size = new System.Drawing.Size(133, 23);
+            this.btnCarOrCup.TabIndex = 2;
+            this.btnCarOrCup.Text = "Araba mı Kupa mı ?";
+            this.btnCarOrCup.UseVisualStyleBackColor = true;
+            this.btnCarOrCup.Click += new System.EventHandler(this.btnCarOrCup_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnCarOrCup);
             this.Controls.Add(this.btnRockPaperScissors);
             this.Controls.Add(this.btnFaceRecognition);
             this.Name = "Form1";
@@ -69,6 +81,7 @@
 
         private System.Windows.Forms.Button btnFaceRecognition;
         private System.Windows.Forms.Button btnRockPaperScissors;
+        private System.Windows.Forms.Button btnCarOrCup;
     }
 }
 
