@@ -51,9 +51,10 @@ namespace MachineLearningForKids.Forms
 
             prediction = new Prediction();
             string _predictSingleImage = Application.StartupPath + "\\images\\predict.jpg";
-            string result = prediction.ClassifySingleImage(mlContext, model, _predictSingleImage);
+            List<string> result = new List<string>();
+            result = prediction.ClassifySingleImage(mlContext, model, _predictSingleImage);
 
-            MessageBox.Show(result);
+            MessageBox.Show(result[0]);
         }
 
         private void btnPredict_Click(object sender, EventArgs e)

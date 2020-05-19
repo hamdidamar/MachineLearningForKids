@@ -28,13 +28,25 @@ namespace MachineLearningForKids
         private void btnRockPaperScissors_Click(object sender, EventArgs e)
         {
             frmRockPaperScissors rockPaperScissors = new frmRockPaperScissors();
-            rockPaperScissors.Show();
+            rockPaperScissors.ShowDialog();
         }
 
         private void btnCarOrCup_Click(object sender, EventArgs e)
         {
             frmCarOrCup carOrCup = new frmCarOrCup();
             carOrCup.Show();
+        }
+
+        private void btnPlayingCards_Click(object sender, EventArgs e)
+        {
+            frmPlayingCards playingCards = new frmPlayingCards();
+            playingCards.Show();
+        }
+
+        private void btnTitaticSurvivor_Click(object sender, EventArgs e)
+        {
+            frmTitanic titanic = new frmTitanic();
+            titanic.Show();
         }
     }
 }

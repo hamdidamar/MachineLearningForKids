@@ -13,17 +13,16 @@ using System.Windows.Forms;
 
 namespace MachineLearningForKids.Forms
 {
-    public partial class frmFaceRecognition : Form
+    public partial class frmPlayingCards : Form
     {
         private MLContext mlContext;
         private GenerateModel generateModel;
         private Prediction prediction;
-        public frmFaceRecognition()
+        public frmPlayingCards()
         {
             InitializeComponent();
         }
-
-        private void frmFaceRecognition_Load(object sender, EventArgs e)
+        private void frmPlayinCards_Load(object sender, EventArgs e)
         {
             AygitYukle();
         }
@@ -56,20 +55,19 @@ namespace MachineLearningForKids.Forms
 
             MessageBox.Show(result[0]);
         }
-
-        private void btnPredict_Click(object sender, EventArgs e)
-        {
-            imgTahmin.Image = imgGiris.Image;
-            imgTahmin.Image.Save(Application.StartupPath + "\\images\\predict.jpg");
-            Result();
-        }
         public void Result()
         {
-            string dataName = "./data/faces.csv";
+            string dataName = "./data/playingcards.csv";
             generateModel = new GenerateModel();
             mlContext = new MLContext();
             var model = generateModel.TrainModel(mlContext, dataName);
             Predict(mlContext, model);
+        }
+        private void btnPredict_Click_1(object sender, EventArgs e)
+        {
+            imgTahmin.Image = imgGiris.Image;
+            imgTahmin.Image.Save(Application.StartupPath + "\\images\\predict.jpg");
+            Result();
         }
     }
 }
