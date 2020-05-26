@@ -54,7 +54,12 @@ namespace MachineLearningForKids.Forms
             List<string> result = new List<string>();
             result = prediction.ClassifySingleImage(mlContext, model, _predictSingleImage);
 
-            MessageBox.Show(result[0]);
+            lblSonuc.Text = result[0]; // Tahmin Sonucu
+            lblScore.Text = result[1]; // Başarım Oranı
+            lblScore.Visible = true;
+            lblSonuc.Visible = true;
+            label1.Visible = true;
+            label2.Visible = true;
         }
 
         private void btnPredict_Click(object sender, EventArgs e)
@@ -70,6 +75,18 @@ namespace MachineLearningForKids.Forms
             mlContext = new MLContext();
             var model = generateModel.TrainModel(mlContext, dataName);
             Predict(mlContext, model);
+        }
+
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            kameramiz.Stop();
+        }
+
+        private void btnFotoğrafCek_Click(object sender, EventArgs e)
+        {
+            imgTahmin.Image = imgGiris.Image;
+            btnPredict.Visible = true;
         }
     }
 }
