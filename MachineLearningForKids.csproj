@@ -171,11 +171,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Forms\frmLessons.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Forms\frmLessons.Designer.cs">
+      <DependentUpon>frmLessons.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MachineLearningForKids.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MachineLearningForKids.Designer.cs">
+      <DependentUpon>MachineLearningForKids.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\frmCarOrCup.cs">
       <SubType>Form</SubType>
@@ -214,8 +220,11 @@
     <Compile Include="Prediction.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmLessons.resx">
+      <DependentUpon>frmLessons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MachineLearningForKids.resx">
+      <DependentUpon>MachineLearningForKids.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmCarOrCup.resx">
       <DependentUpon>frmCarOrCup.cs</DependentUpon>
@@ -374,6 +383,7 @@
     <Content Include="images\bardak9.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="images\beden.jpg" />
     <Content Include="images\cihan1.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -392,12 +402,14 @@
     <Content Include="images\cihan6.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="images\cografya.jpg" />
     <Content Include="images\dogan1.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="images\dogan2.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="images\fenbilgisi.jpg" />
     <Content Include="images\hamdi1.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -548,6 +560,9 @@
     <Content Include="images\makasBilgisayar.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="images\matematik.png" />
+    <Content Include="images\muzik.jpg" />
+    <Content Include="images\resim.jpg" />
     <Content Include="images\sinek-1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -596,6 +611,7 @@
     <Content Include="images\tasBilgisayar.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="images\turkce.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -1,6 +1,6 @@
 ﻿namespace MachineLearningForKids
 {
-    partial class Form1
+    partial class MachineLearningForKids
     {
         /// <summary>
         ///Gerekli tasarımcı değişkeni.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MachineLearningForKids));
             this.btnFaceRecognition = new System.Windows.Forms.Button();
             this.btnRockPaperScissors = new System.Windows.Forms.Button();
             this.btnCarOrCup = new System.Windows.Forms.Button();
@@ -48,11 +48,13 @@
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.label36 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.btnPlayingCards = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.label37 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -94,8 +96,6 @@
             this.btnPacman = new System.Windows.Forms.Button();
             this.label26 = new System.Windows.Forms.Label();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -343,6 +343,18 @@
             this.panel4.Size = new System.Drawing.Size(265, 211);
             this.panel4.TabIndex = 7;
             // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.BackColor = System.Drawing.Color.Transparent;
+            this.label36.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.ForeColor = System.Drawing.Color.White;
+            this.label36.Location = new System.Drawing.Point(4, 184);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(107, 21);
+            this.label36.TabIndex = 10;
+            this.label36.Text = "Aktif Çalışıyor";
+            // 
             // label35
             // 
             this.label35.AutoSize = true;
@@ -400,6 +412,18 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(265, 211);
             this.panel5.TabIndex = 8;
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.BackColor = System.Drawing.Color.Transparent;
+            this.label37.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.ForeColor = System.Drawing.Color.White;
+            this.label37.Location = new System.Drawing.Point(3, 184);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(107, 21);
+            this.label37.TabIndex = 11;
+            this.label37.Text = "Aktif Çalışıyor";
             // 
             // label34
             // 
@@ -710,12 +734,12 @@
             this.label31.BackColor = System.Drawing.Color.Transparent;
             this.label31.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.ForeColor = System.Drawing.Color.White;
-            this.label31.Location = new System.Drawing.Point(7, 79);
+            this.label31.Location = new System.Drawing.Point(3, 79);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(243, 63);
+            this.label31.Size = new System.Drawing.Size(235, 84);
             this.label31.TabIndex = 8;
-            this.label31.Text = "Çocuklar derse yorum yazıyor\r\nBilgisayarda çocukların \r\nDersi sevip/sevmediğini s" +
-    "öylüyor.\r\n";
+            this.label31.Text = "Öğrencilerin ders hakkında \r\nSöyledikleri duygular toplanıyor.\r\nDerslere cevaplar" +
+    " üzerinden\r\nPuanlar veriliyor.\r\n";
             // 
             // label12
             // 
@@ -748,6 +772,7 @@
             this.btnLessonSentiment.TabIndex = 2;
             this.btnLessonSentiment.Text = "Merak Etme Aramızda 😉";
             this.btnLessonSentiment.UseVisualStyleBackColor = true;
+            this.btnLessonSentiment.Click += new System.EventHandler(this.btnLessonSentiment_Click);
             // 
             // panel9
             // 
@@ -885,32 +910,9 @@
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.TabIndex = 15;
             this.pictureBox11.TabStop = false;
+            this.pictureBox11.Click += new System.EventHandler(this.pictureBox11_Click);
             // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.BackColor = System.Drawing.Color.Transparent;
-            this.label36.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.ForeColor = System.Drawing.Color.White;
-            this.label36.Location = new System.Drawing.Point(4, 184);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(107, 21);
-            this.label36.TabIndex = 10;
-            this.label36.Text = "Aktif Çalışıyor";
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.BackColor = System.Drawing.Color.Transparent;
-            this.label37.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.ForeColor = System.Drawing.Color.White;
-            this.label37.Location = new System.Drawing.Point(3, 184);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(107, 21);
-            this.label37.TabIndex = 11;
-            this.label37.Text = "Aktif Çalışıyor";
-            // 
-            // Form1
+            // MachineLearningForKids
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -931,7 +933,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Form1";
+            this.Name = "MachineLearningForKids";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);

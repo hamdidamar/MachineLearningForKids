@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace MachineLearningForKids
 {
-    public partial class Form1 : Form
+    public partial class MachineLearningForKids : Form
     {
-        public Form1()
+        public MachineLearningForKids()
         {
             InitializeComponent();
         }
@@ -21,7 +21,7 @@ namespace MachineLearningForKids
         private void btnFaceRecognition_Click(object sender, EventArgs e)
         {
             frmFaceRecognition faceRecognition = new frmFaceRecognition();
-            faceRecognition.Show();
+            faceRecognition.ShowDialog();
                 
         }
 
@@ -34,19 +34,30 @@ namespace MachineLearningForKids
         private void btnCarOrCup_Click(object sender, EventArgs e)
         {
             frmCarOrCup carOrCup = new frmCarOrCup();
-            carOrCup.Show();
+            carOrCup.ShowDialog();
         }
 
         private void btnPlayingCards_Click(object sender, EventArgs e)
         {
             frmPlayingCards playingCards = new frmPlayingCards();
-            playingCards.Show();
+            playingCards.ShowDialog();
         }
 
         private void btnTitaticSurvivor_Click(object sender, EventArgs e)
         {
             frmTitanic titanic = new frmTitanic();
-            titanic.Show();
+            titanic.ShowDialog();
+        }
+
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnLessonSentiment_Click(object sender, EventArgs e)
+        {
+            frmLessons lessons = new frmLessons();
+            lessons.ShowDialog();
         }
     }
 }

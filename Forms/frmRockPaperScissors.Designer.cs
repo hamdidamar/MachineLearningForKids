@@ -41,11 +41,11 @@
             this.lblSonuc = new System.Windows.Forms.Label();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.imgBilgisayar = new System.Windows.Forms.PictureBox();
             this.lblDurum = new System.Windows.Forms.Label();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.imgGiris)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgTahmin)).BeginInit();
@@ -125,7 +125,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(296, 32);
             this.label4.TabIndex = 24;
-            this.label4.Text = "Kameraya Elinizi Gösterip Oyuna Başlayın Sonra \r\nTahmin Butonuna Basıp Bilgisayar" +
+            this.label4.Text = "Kameraya Elinizi Gösterip Fotoğraf Çekin Sonra \r\nTahmin Butonuna Basıp Bilgisayar" +
     "a Karşı Oynayın !";
             // 
             // lblScore
@@ -168,6 +168,30 @@
             this.panel2.Size = new System.Drawing.Size(429, 433);
             this.panel2.TabIndex = 28;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(151, 355);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(103, 19);
+            this.label1.TabIndex = 30;
+            this.label1.Text = "Başarı Skoru:";
+            this.label1.Visible = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(128, 336);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(126, 19);
+            this.label2.TabIndex = 31;
+            this.label2.Text = "Tahmin Sonucu:";
+            this.label2.Visible = false;
+            // 
             // imgBilgisayar
             // 
             this.imgBilgisayar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
@@ -203,30 +227,6 @@
             this.pictureBox11.TabIndex = 30;
             this.pictureBox11.TabStop = false;
             this.pictureBox11.Click += new System.EventHandler(this.pictureBox11_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(151, 355);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 19);
-            this.label1.TabIndex = 30;
-            this.label1.Text = "Başarı Skoru:";
-            this.label1.Visible = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(128, 336);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(126, 19);
-            this.label2.TabIndex = 31;
-            this.label2.Text = "Tahmin Sonucu:";
-            this.label2.Visible = false;
             // 
             // label3
             // 
