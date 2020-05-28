@@ -73,7 +73,7 @@
             this.label30 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnTouristInformation = new System.Windows.Forms.Button();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label31 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
@@ -597,7 +597,7 @@
             this.f.Controls.Add(this.label30);
             this.f.Controls.Add(this.label10);
             this.f.Controls.Add(this.pictureBox7);
-            this.f.Controls.Add(this.button4);
+            this.f.Controls.Add(this.btnTouristInformation);
             this.f.Location = new System.Drawing.Point(824, 279);
             this.f.Name = "f";
             this.f.Size = new System.Drawing.Size(265, 211);
@@ -639,14 +639,15 @@
             this.pictureBox7.TabIndex = 1;
             this.pictureBox7.TabStop = false;
             // 
-            // button4
+            // btnTouristInformation
             // 
-            this.button4.Location = new System.Drawing.Point(129, 185);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(133, 23);
-            this.button4.TabIndex = 2;
-            this.button4.Text = "Biraz Gezelim";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnTouristInformation.Location = new System.Drawing.Point(129, 185);
+            this.btnTouristInformation.Name = "btnTouristInformation";
+            this.btnTouristInformation.Size = new System.Drawing.Size(133, 23);
+            this.btnTouristInformation.TabIndex = 2;
+            this.btnTouristInformation.Text = "Biraz Gezelim";
+            this.btnTouristInformation.UseVisualStyleBackColor = true;
+            this.btnTouristInformation.Click += new System.EventHandler(this.btnTouristInformation_Click);
             // 
             // panel8
             // 
@@ -782,9 +783,9 @@
             this.label33.ForeColor = System.Drawing.Color.White;
             this.label33.Location = new System.Drawing.Point(13, 74);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(205, 42);
+            this.label33.Size = new System.Drawing.Size(205, 63);
             this.label33.TabIndex = 10;
-            this.label33.Text = "Çocuklar bilgisayara karşı \r\nPACMAN oyununu oynuyor.";
+            this.label33.Text = "Çocuklar bilgisayar ile\r\nYapay Zekaya sahip\r\nPACMAN oyununu oynuyor.";
             // 
             // label16
             // 
@@ -817,6 +818,7 @@
             this.btnPacman.TabIndex = 0;
             this.btnPacman.Text = "Canavardan Kaç";
             this.btnPacman.UseVisualStyleBackColor = true;
+            this.btnPacman.Click += new System.EventHandler(this.btnPacman_Click);
             // 
             // label26
             // 
@@ -929,7 +931,7 @@
         private System.Windows.Forms.Panel f;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnTouristInformation;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.PictureBox pictureBox8;

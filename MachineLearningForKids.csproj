@@ -172,11 +172,34 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Pacman\BestDirectionHeap.cs" />
+    <Compile Include="Classes\Pacman\BestDirectionHeapNode.cs" />
+    <Compile Include="Classes\Pacman\Directions.cs" />
+    <Compile Include="Classes\Pacman\Ghost.cs" />
+    <Compile Include="Classes\Pacman\GhostMover.cs" />
+    <Compile Include="Classes\Pacman\IEating.cs" />
+    <Compile Include="Classes\Pacman\ImageCreater.cs" />
+    <Compile Include="Classes\Pacman\ImageObject.cs" />
+    <Compile Include="Classes\Pacman\ImageObjectType.cs" />
+    <Compile Include="Classes\Pacman\IMove.cs" />
+    <Compile Include="Classes\Pacman\MapObjectOperator.cs" />
+    <Compile Include="Classes\Pacman\MovingObject.cs" />
+    <Compile Include="Classes\Pacman\OrdinaryFood.cs" />
+    <Compile Include="Classes\Pacman\PacmanAIOperator.cs" />
+    <Compile Include="Classes\Pacman\PacmanMover.cs" />
+    <Compile Include="Classes\Pacman\ThePacman.cs" />
+    <Compile Include="Classes\Pacman\Wall.cs" />
     <Compile Include="Forms\frmLessons.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\frmLessons.Designer.cs">
       <DependentUpon>frmLessons.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPacman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPacman.Designer.cs">
+      <DependentUpon>frmPacman.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\frmTouristInformation.cs">
       <SubType>Form</SubType>
@@ -229,6 +252,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\frmLessons.resx">
       <DependentUpon>frmLessons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPacman.resx">
+      <DependentUpon>frmPacman.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmTouristInformation.resx">
       <DependentUpon>frmTouristInformation.cs</DependentUpon>
@@ -394,6 +420,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="images\beden.jpg" />
+    <Content Include="images\BlueGhostIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="images\cihan1.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -572,6 +601,9 @@
     </Content>
     <Content Include="images\matematik.png" />
     <Content Include="images\muzik.jpg" />
+    <Content Include="images\Pacman.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="images\resim.jpg" />
     <Content Include="images\sinek-1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -622,6 +654,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="images\turkce.jpg" />
+    <Content Include="Classes\Pacman\Resources\BlueGhostIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Classes\Pacman\Resources\Pacman.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="SpeechLib">

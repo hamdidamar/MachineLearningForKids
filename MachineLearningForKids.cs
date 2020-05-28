@@ -59,5 +59,17 @@ namespace MachineLearningForKids
             frmLessons lessons = new frmLessons();
             lessons.ShowDialog();
         }
+
+        private void btnTouristInformation_Click(object sender, EventArgs e)
+        {
+            frmTouristInformation touristInformation = new frmTouristInformation();
+            touristInformation.ShowDialog();
+        }
+
+        private void btnPacman_Click(object sender, EventArgs e)
+        {
+            frmPacman pacman = new frmPacman();
+            pacman.ShowDialog();
+        }
     }
 }

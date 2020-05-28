@@ -17,7 +17,7 @@ namespace MachineLearningForKids
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmTouristInformation());
+            Application.Run(new MachineLearningForKids());
         }
     }
 }
