@@ -34,27 +34,22 @@
             this.btnCarOrCup = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label27 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label28 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label29 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label36 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.btnPlayingCards = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.label37 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -153,7 +148,6 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(204)))), ((int)(((byte)(113)))));
             this.panel1.Controls.Add(this.label27);
-            this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.btnFaceRecognition);
@@ -173,18 +167,6 @@
             this.label27.Size = new System.Drawing.Size(240, 63);
             this.label27.TabIndex = 4;
             this.label27.Text = "Kamera ile çocukların\r\nKim olduğu bilgisayar tarafından \r\ntahmin ediliyor.";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(13, 184);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(107, 21);
-            this.label6.TabIndex = 3;
-            this.label6.Text = "Aktif Çalışıyor";
             // 
             // label1
             // 
@@ -213,7 +195,6 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
             this.panel2.Controls.Add(this.label28);
-            this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.btnRockPaperScissors);
@@ -233,18 +214,6 @@
             this.label28.Size = new System.Drawing.Size(199, 63);
             this.label28.TabIndex = 5;
             this.label28.Text = "Kamera ile bilgisayara karşı\r\nTaş-Kağıt-Makas oyunu\r\noynatılıyor.";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(12, 184);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(107, 21);
-            this.label7.TabIndex = 4;
-            this.label7.Text = "Aktif Çalışıyor";
             // 
             // label2
             // 
@@ -273,7 +242,6 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.panel3.Controls.Add(this.label29);
-            this.panel3.Controls.Add(this.label8);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.pictureBox3);
             this.panel3.Controls.Add(this.btnCarOrCup);
@@ -294,18 +262,6 @@
             this.label29.TabIndex = 6;
             this.label29.Text = "Çocukların kameraya gösterdikleri\r\nResim veya cismin \r\nAraba mı ? yoksa bardak mı" +
     "? \r\nolduğu tahmin ediliyor.";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(3, 184);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(107, 21);
-            this.label8.TabIndex = 4;
-            this.label8.Text = "Aktif Çalışıyor";
             // 
             // label3
             // 
@@ -333,7 +289,6 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.panel4.Controls.Add(this.label36);
             this.panel4.Controls.Add(this.label35);
             this.panel4.Controls.Add(this.label4);
             this.panel4.Controls.Add(this.pictureBox4);
@@ -343,18 +298,6 @@
             this.panel4.Size = new System.Drawing.Size(265, 211);
             this.panel4.TabIndex = 7;
             // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.BackColor = System.Drawing.Color.Transparent;
-            this.label36.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.ForeColor = System.Drawing.Color.White;
-            this.label36.Location = new System.Drawing.Point(4, 184);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(107, 21);
-            this.label36.TabIndex = 10;
-            this.label36.Text = "Aktif Çalışıyor";
-            // 
             // label35
             // 
             this.label35.AutoSize = true;
@@ -363,9 +306,10 @@
             this.label35.ForeColor = System.Drawing.Color.White;
             this.label35.Location = new System.Drawing.Point(4, 77);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(220, 42);
+            this.label35.Size = new System.Drawing.Size(233, 84);
             this.label35.TabIndex = 9;
-            this.label35.Text = "Çocuklar oyun kartları ile\r\nBilgisayara karşı pişti oynuyor.";
+            this.label35.Text = "Çocuklar oyun kartları ile\r\nBilgisayar kamerasını kullanarak\r\nPişti oynuyor ve ka" +
+    "rtın türünü\r\nTahmin ettiriyor.";
             // 
             // label4
             // 
@@ -403,7 +347,6 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
-            this.panel5.Controls.Add(this.label37);
             this.panel5.Controls.Add(this.label34);
             this.panel5.Controls.Add(this.label5);
             this.panel5.Controls.Add(this.pictureBox5);
@@ -412,18 +355,6 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(265, 211);
             this.panel5.TabIndex = 8;
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.BackColor = System.Drawing.Color.Transparent;
-            this.label37.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.ForeColor = System.Drawing.Color.White;
-            this.label37.Location = new System.Drawing.Point(3, 184);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(107, 21);
-            this.label37.TabIndex = 11;
-            this.label37.Text = "Aktif Çalışıyor";
             // 
             // label34
             // 
@@ -678,11 +609,12 @@
             this.label30.BackColor = System.Drawing.Color.Transparent;
             this.label30.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label30.ForeColor = System.Drawing.Color.White;
-            this.label30.Location = new System.Drawing.Point(3, 79);
+            this.label30.Location = new System.Drawing.Point(4, 69);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(201, 42);
+            this.label30.Size = new System.Drawing.Size(219, 105);
             this.label30.TabIndex = 7;
-            this.label30.Text = "Girilen il bilgisine göre\r\nGezilecek yerleri gösteriyor.\r\n";
+            this.label30.Text = "Seçilen il bilgisine göre \r\nTarihi veya Kültürel yerleri,\r\nMüze veya Galerileri,\r" +
+    "\nYiyecek veya İçecekleri ile ilgili\r\nGörsel veya bilgileri getiriyor.\r\n";
             // 
             // label10
             // 
@@ -986,9 +918,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox4;
@@ -1039,8 +968,6 @@
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Label label37;
     }
 }
 
