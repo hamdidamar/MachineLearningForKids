@@ -188,6 +188,11 @@ namespace MachineLearningForKids.Forms
             pctr_Square9.Enabled = false;
         }
 
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         private void Player1Timer_Tick(object sender, EventArgs e)
         {
             prgrss_Player1.Value -= timeRecorder * 10;
@@ -207,11 +212,6 @@ namespace MachineLearningForKids.Forms
                 FinishGame(1);
 
             }
-        }
-
-        private void pictureBox11_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

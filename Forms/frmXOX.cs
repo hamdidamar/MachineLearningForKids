@@ -117,12 +117,14 @@ namespace MachineLearningForKids.Forms
 
 
 
-
                 UIHumanVsAI pc_karsi = new UIHumanVsAI();
 
                 pc_karsi.Visible = false;
 
                 pc_karsi.Show();
+
+
+
             }
 
             else if (rdo_lan.Checked == true)

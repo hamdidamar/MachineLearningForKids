@@ -28,15 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UIHumanVsAI));
             this.pctr_Square3 = new System.Windows.Forms.PictureBox();
             this.lbl_Player2Name = new System.Windows.Forms.Label();
             this.lbl_Player1Name = new System.Windows.Forms.Label();
             this.prgrss_Player1 = new System.Windows.Forms.ProgressBar();
             this.prgrss_Player2 = new System.Windows.Forms.ProgressBar();
-            this.Player1Timer = new System.Windows.Forms.Timer(this.components);
-            this.Player2Timer = new System.Windows.Forms.Timer(this.components);
             this.pctr_Square9 = new System.Windows.Forms.PictureBox();
             this.pctr_Square8 = new System.Windows.Forms.PictureBox();
             this.pctr_Square7 = new System.Windows.Forms.PictureBox();
@@ -102,14 +99,6 @@
             this.prgrss_Player2.Name = "prgrss_Player2";
             this.prgrss_Player2.Size = new System.Drawing.Size(100, 23);
             this.prgrss_Player2.TabIndex = 41;
-            // 
-            // Player1Timer
-            // 
-            this.Player1Timer.Tick += new System.EventHandler(this.Player1Timer_Tick);
-            // 
-            // Player2Timer
-            // 
-            this.Player2Timer.Tick += new System.EventHandler(this.Player2Timer_Tick);
             // 
             // pctr_Square9
             // 
@@ -279,8 +268,6 @@
         private System.Windows.Forms.Label lbl_Player1Name;
         private System.Windows.Forms.ProgressBar prgrss_Player1;
         private System.Windows.Forms.ProgressBar prgrss_Player2;
-        private System.Windows.Forms.Timer Player1Timer;
-        private System.Windows.Forms.Timer Player2Timer;
         private System.Windows.Forms.PictureBox pctr_Square9;
         private System.Windows.Forms.PictureBox pctr_Square8;
         private System.Windows.Forms.PictureBox pctr_Square7;

@@ -666,12 +666,6 @@
         +0//6f8HL9dZPf4moWgAAAAASUVORK5CYII=
 </value>
   </data>
-  <metadata name="Player1Timer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>283, 20</value>
-  </metadata>
-  <metadata name="Player2Timer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>405, 20</value>
-  </metadata>
   <data name="pctr_Square9.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAfxVJREFUeF7t
