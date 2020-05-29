@@ -727,9 +727,9 @@
             this.label32.ForeColor = System.Drawing.Color.White;
             this.label32.Location = new System.Drawing.Point(11, 74);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(191, 42);
+            this.label32.Size = new System.Drawing.Size(191, 63);
             this.label32.TabIndex = 9;
-            this.label32.Text = "Çocuklar bilgisayara karşı \r\nXOX oyununu oynuyor.";
+            this.label32.Text = "Çocuklar bilgisayara karşı \r\nveya iki kişilik bir şekilde\r\nXOX oyununu oynuyor.";
             // 
             // label14
             // 
@@ -762,6 +762,7 @@
             this.btnXOX.TabIndex = 1;
             this.btnXOX.Text = "Sakın Kaybetme";
             this.btnXOX.UseVisualStyleBackColor = true;
+            this.btnXOX.Click += new System.EventHandler(this.btnXOX_Click);
             // 
             // panel10
             // 

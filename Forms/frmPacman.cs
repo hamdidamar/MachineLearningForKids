@@ -110,7 +110,7 @@ namespace MachineLearningForKids.Forms
         private ThePacman thePacman;
         private Ghost[] ghosts;
         MapObjectOperator mapObjectOperator;
-        private const int TIMERDEFAULTINTERVAL = 1000;
+        private const int TIMERDEFAULTINTERVAL = 3000;
         private PacmanAIOperator pacmanAI;
         private void frmPacman_Load(object sender, EventArgs e)
         {

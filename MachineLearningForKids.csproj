@@ -189,6 +189,18 @@
     <Compile Include="Classes\Pacman\PacmanMover.cs" />
     <Compile Include="Classes\Pacman\ThePacman.cs" />
     <Compile Include="Classes\Pacman\Wall.cs" />
+    <Compile Include="Classes\XOX\AIOperations.cs" />
+    <Compile Include="Classes\XOX\BoardSquares.cs" />
+    <Compile Include="Classes\XOX\BoardSquaresElement.cs" />
+    <Compile Include="Classes\XOX\ConformanceTester.cs" />
+    <Compile Include="Classes\XOX\RowTaker.cs" />
+    <Compile Include="Classes\XOX\StatusEvalutionCalculater.cs" />
+    <Compile Include="Forms\FormSunucuEklenti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormSunucuEklenti.Designer.cs">
+      <DependentUpon>FormSunucuEklenti.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmLessons.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -206,6 +218,24 @@
     </Compile>
     <Compile Include="Forms\frmTouristInformation.Designer.cs">
       <DependentUpon>frmTouristInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmXOX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmXOX.Designer.cs">
+      <DependentUpon>frmXOX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UIHumanVsAI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UIHumanVsAI.Designer.cs">
+      <DependentUpon>UIHumanVsAI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UIHumanVsHuman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UIHumanVsHuman.Designer.cs">
+      <DependentUpon>UIHumanVsHuman.cs</DependentUpon>
     </Compile>
     <Compile Include="MachineLearningForKids.cs">
       <SubType>Form</SubType>
@@ -250,6 +280,9 @@
     <Compile Include="Prediction.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\FormSunucuEklenti.resx">
+      <DependentUpon>FormSunucuEklenti.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmLessons.resx">
       <DependentUpon>frmLessons.cs</DependentUpon>
     </EmbeddedResource>
@@ -258,6 +291,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmTouristInformation.resx">
       <DependentUpon>frmTouristInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmXOX.resx">
+      <DependentUpon>frmXOX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UIHumanVsAI.resx">
+      <DependentUpon>UIHumanVsAI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UIHumanVsHuman.resx">
+      <DependentUpon>UIHumanVsHuman.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MachineLearningForKids.resx">
       <DependentUpon>MachineLearningForKids.cs</DependentUpon>
@@ -644,6 +686,15 @@
     <Content Include="images\sinek-9.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="images\SquareImg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\SquareOImg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\SquareXImg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="images\tas1.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -658,6 +709,15 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Classes\Pacman\Resources\Pacman.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\SquareImg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\SquareOImg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\SquareXImg.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

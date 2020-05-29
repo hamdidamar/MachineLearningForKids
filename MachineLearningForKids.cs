@@ -71,5 +71,11 @@ namespace MachineLearningForKids
             frmPacman pacman = new frmPacman();
             pacman.ShowDialog();
         }
+
+        private void btnXOX_Click(object sender, EventArgs e)
+        {
+            frmXOX xox = new frmXOX();
+            xox.ShowDialog();
+        }
     }
 }

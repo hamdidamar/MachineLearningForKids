@@ -258,9 +258,9 @@
             // 
             this.wall4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("wall4.BackgroundImage")));
             this.wall4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.wall4.Location = new System.Drawing.Point(40, 100);
+            this.wall4.Location = new System.Drawing.Point(20, 120);
             this.wall4.Name = "wall4";
-            this.wall4.Size = new System.Drawing.Size(40, 20);
+            this.wall4.Size = new System.Drawing.Size(60, 20);
             this.wall4.TabIndex = 3;
             this.wall4.TabStop = false;
             // 
