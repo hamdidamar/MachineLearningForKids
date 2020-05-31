@@ -219,6 +219,12 @@
     <Compile Include="Forms\frmTouristInformation.Designer.cs">
       <DependentUpon>frmTouristInformation.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\frmTrainTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmTrainTest.Designer.cs">
+      <DependentUpon>frmTrainTest.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmXOX.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -291,6 +297,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmTouristInformation.resx">
       <DependentUpon>frmTouristInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmTrainTest.resx">
+      <DependentUpon>frmTrainTest.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmXOX.resx">
       <DependentUpon>frmXOX.cs</DependentUpon>
@@ -641,6 +650,12 @@
     <Content Include="images\makasBilgisayar.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="images\makashamdi1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\makashamdi2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="images\matematik.png" />
     <Content Include="images\muzik.jpg" />
     <Content Include="images\Pacman.png">
@@ -709,6 +724,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Classes\Pacman\Resources\Pacman.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\hamdison.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Resources\SquareImg.png">

@@ -1,4 +1,5 @@
 ﻿using Microsoft.ML;
+using Microsoft.ML.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +27,16 @@ namespace MachineLearningForKids
                 .Append(mlContext.Transforms.Conversion.MapKeyToValue("PredictedLabelValue", "PredictedLabel"));
 
             var model = pipeline.Fit(data);
+
+            // TEST İşlemleri Kendimiz Canlı veri ile test ediyoruz diye kullanmadık.
+
+            //IDataView testData = mlContext.Data.LoadFromTextFile<ImageData>(path: _testTagsTsv, hasHeader: false);
+            //IDataView predictions = model.Transform(testData);
+
+            //MulticlassClassificationMetrics metrics = mlContext.MulticlassClassification.Evaluate(predictions,labelColumnName: "LabelKey",predictedLabelColumnName: "PredictedLabel");
+
+            //Console.WriteLine($"LogLoss is: {metrics.LogLoss}");
+            //Console.WriteLine($"PerClassLogLoss is: {String.Join(" , ", metrics.PerClassLogLoss.Select(c => c.ToString()))}");
 
             return model;
 

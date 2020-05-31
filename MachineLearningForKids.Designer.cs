@@ -91,6 +91,7 @@
             this.btnPacman = new System.Windows.Forms.Button();
             this.label26 = new System.Windows.Forms.Label();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.btnTrainTest = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -405,6 +406,7 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel6.Controls.Add(this.btnTrainTest);
             this.panel6.Controls.Add(this.label20);
             this.panel6.Controls.Add(this.label21);
             this.panel6.Controls.Add(this.label22);
@@ -421,7 +423,7 @@
             this.panel6.Controls.Add(this.pictureBox6);
             this.panel6.Location = new System.Drawing.Point(1095, 279);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(265, 211);
+            this.panel6.Size = new System.Drawing.Size(265, 220);
             this.panel6.TabIndex = 13;
             // 
             // label20
@@ -430,7 +432,7 @@
             this.label20.BackColor = System.Drawing.Color.Transparent;
             this.label20.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label20.ForeColor = System.Drawing.Color.White;
-            this.label20.Location = new System.Drawing.Point(131, 174);
+            this.label20.Location = new System.Drawing.Point(131, 162);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(110, 21);
             this.label20.TabIndex = 16;
@@ -442,7 +444,7 @@
             this.label21.BackColor = System.Drawing.Color.Transparent;
             this.label21.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.ForeColor = System.Drawing.Color.White;
-            this.label21.Location = new System.Drawing.Point(131, 153);
+            this.label21.Location = new System.Drawing.Point(131, 141);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(90, 21);
             this.label21.TabIndex = 15;
@@ -454,7 +456,7 @@
             this.label22.BackColor = System.Drawing.Color.Transparent;
             this.label22.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label22.ForeColor = System.Drawing.Color.White;
-            this.label22.Location = new System.Drawing.Point(131, 132);
+            this.label22.Location = new System.Drawing.Point(131, 120);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(90, 21);
             this.label22.TabIndex = 14;
@@ -466,7 +468,7 @@
             this.label23.BackColor = System.Drawing.Color.Transparent;
             this.label23.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label23.ForeColor = System.Drawing.Color.White;
-            this.label23.Location = new System.Drawing.Point(131, 111);
+            this.label23.Location = new System.Drawing.Point(131, 99);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(107, 21);
             this.label23.TabIndex = 13;
@@ -478,7 +480,7 @@
             this.label24.BackColor = System.Drawing.Color.Transparent;
             this.label24.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label24.ForeColor = System.Drawing.Color.White;
-            this.label24.Location = new System.Drawing.Point(131, 90);
+            this.label24.Location = new System.Drawing.Point(131, 78);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(107, 21);
             this.label24.TabIndex = 12;
@@ -490,7 +492,7 @@
             this.label25.BackColor = System.Drawing.Color.Transparent;
             this.label25.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label25.ForeColor = System.Drawing.Color.White;
-            this.label25.Location = new System.Drawing.Point(131, 69);
+            this.label25.Location = new System.Drawing.Point(131, 57);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(115, 21);
             this.label25.TabIndex = 11;
@@ -502,7 +504,7 @@
             this.label19.BackColor = System.Drawing.Color.Transparent;
             this.label19.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.White;
-            this.label19.Location = new System.Drawing.Point(15, 90);
+            this.label19.Location = new System.Drawing.Point(15, 78);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(91, 21);
             this.label19.TabIndex = 10;
@@ -514,7 +516,7 @@
             this.label18.BackColor = System.Drawing.Color.Transparent;
             this.label18.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.White;
-            this.label18.Location = new System.Drawing.Point(15, 174);
+            this.label18.Location = new System.Drawing.Point(15, 162);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(91, 21);
             this.label18.TabIndex = 9;
@@ -526,7 +528,7 @@
             this.label17.BackColor = System.Drawing.Color.Transparent;
             this.label17.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.White;
-            this.label17.Location = new System.Drawing.Point(15, 153);
+            this.label17.Location = new System.Drawing.Point(15, 141);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(91, 21);
             this.label17.TabIndex = 8;
@@ -538,7 +540,7 @@
             this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(15, 111);
+            this.label15.Location = new System.Drawing.Point(15, 99);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(91, 21);
             this.label15.TabIndex = 7;
@@ -550,7 +552,7 @@
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(15, 132);
+            this.label13.Location = new System.Drawing.Point(15, 120);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(91, 21);
             this.label13.TabIndex = 6;
@@ -562,7 +564,7 @@
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(15, 69);
+            this.label11.Location = new System.Drawing.Point(15, 57);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(91, 21);
             this.label11.TabIndex = 5;
@@ -600,7 +602,7 @@
             this.f.Controls.Add(this.btnTouristInformation);
             this.f.Location = new System.Drawing.Point(824, 279);
             this.f.Name = "f";
-            this.f.Size = new System.Drawing.Size(265, 211);
+            this.f.Size = new System.Drawing.Size(265, 220);
             this.f.TabIndex = 12;
             // 
             // label30
@@ -641,7 +643,7 @@
             // 
             // btnTouristInformation
             // 
-            this.btnTouristInformation.Location = new System.Drawing.Point(129, 185);
+            this.btnTouristInformation.Location = new System.Drawing.Point(129, 194);
             this.btnTouristInformation.Name = "btnTouristInformation";
             this.btnTouristInformation.Size = new System.Drawing.Size(133, 23);
             this.btnTouristInformation.TabIndex = 2;
@@ -658,7 +660,7 @@
             this.panel8.Controls.Add(this.btnLessonSentiment);
             this.panel8.Location = new System.Drawing.Point(553, 279);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(265, 211);
+            this.panel8.Size = new System.Drawing.Size(265, 220);
             this.panel8.TabIndex = 11;
             // 
             // label31
@@ -699,7 +701,7 @@
             // 
             // btnLessonSentiment
             // 
-            this.btnLessonSentiment.Location = new System.Drawing.Point(125, 185);
+            this.btnLessonSentiment.Location = new System.Drawing.Point(129, 194);
             this.btnLessonSentiment.Name = "btnLessonSentiment";
             this.btnLessonSentiment.Size = new System.Drawing.Size(133, 23);
             this.btnLessonSentiment.TabIndex = 2;
@@ -716,7 +718,7 @@
             this.panel9.Controls.Add(this.btnXOX);
             this.panel9.Location = new System.Drawing.Point(282, 279);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(265, 211);
+            this.panel9.Size = new System.Drawing.Size(265, 220);
             this.panel9.TabIndex = 10;
             // 
             // label32
@@ -756,7 +758,7 @@
             // 
             // btnXOX
             // 
-            this.btnXOX.Location = new System.Drawing.Point(144, 185);
+            this.btnXOX.Location = new System.Drawing.Point(144, 194);
             this.btnXOX.Name = "btnXOX";
             this.btnXOX.Size = new System.Drawing.Size(118, 23);
             this.btnXOX.TabIndex = 1;
@@ -773,7 +775,7 @@
             this.panel10.Controls.Add(this.btnPacman);
             this.panel10.Location = new System.Drawing.Point(11, 279);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(265, 211);
+            this.panel10.Size = new System.Drawing.Size(265, 220);
             this.panel10.TabIndex = 9;
             // 
             // label33
@@ -813,7 +815,7 @@
             // 
             // btnPacman
             // 
-            this.btnPacman.Location = new System.Drawing.Point(120, 185);
+            this.btnPacman.Location = new System.Drawing.Point(120, 194);
             this.btnPacman.Name = "btnPacman";
             this.btnPacman.Size = new System.Drawing.Size(142, 23);
             this.btnPacman.TabIndex = 0;
@@ -847,12 +849,22 @@
             this.pictureBox11.TabStop = false;
             this.pictureBox11.Click += new System.EventHandler(this.pictureBox11_Click);
             // 
+            // btnTrainTest
+            // 
+            this.btnTrainTest.Location = new System.Drawing.Point(129, 194);
+            this.btnTrainTest.Name = "btnTrainTest";
+            this.btnTrainTest.Size = new System.Drawing.Size(133, 23);
+            this.btnTrainTest.TabIndex = 17;
+            this.btnTrainTest.Text = "Train - Test";
+            this.btnTrainTest.UseVisualStyleBackColor = true;
+            this.btnTrainTest.Click += new System.EventHandler(this.btnTrainTest_Click);
+            // 
             // MachineLearningForKids
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(1370, 504);
+            this.ClientSize = new System.Drawing.Size(1370, 517);
             this.Controls.Add(this.pictureBox11);
             this.Controls.Add(this.label26);
             this.Controls.Add(this.panel6);
@@ -971,6 +983,7 @@
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Button btnTrainTest;
     }
 }
 

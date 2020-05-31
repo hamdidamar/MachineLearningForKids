@@ -77,5 +77,11 @@ namespace MachineLearningForKids
             frmXOX xox = new frmXOX();
             xox.ShowDialog();
         }
+
+        private void btnTrainTest_Click(object sender, EventArgs e)
+        {
+            frmTrainTest trainTest = new frmTrainTest();
+            trainTest.ShowDialog();
+        }
     }
 }
